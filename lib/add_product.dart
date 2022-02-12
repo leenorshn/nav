@@ -22,10 +22,11 @@ class AddProduct extends StatelessWidget {
               ),
             ),
             ElevatedButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                child: const Text("Retour en arriere"))
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: const Text("Retour en arriere"),
+            ),
           ],
         ),
       ),
